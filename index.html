@@ -4,10 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>U1-S1-G3</title>
+    
+    <!-- css usato internamente tramite style nell`head -->
+    <style>
+        p{
+            font-size: 15px;
+        }
+    </style>
+
+<!-- collegamento al foglio esterno di css per applicare modifiche al paragrafo 3 -->
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
+
+
 <body>
-    <p>
-       Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui sed libero, sapiente id officia voluptate similique aliquid error quam nesciunt iste enim rem quod assumenda, molestias totam natus cumque optio. 
+   <h1>U1-S1-G3</h1>
+   <h2>3 modi per usare css</h2>
+   <ul>
+    <li>1inline</li>
+    <li>2interno</li>
+    <li>3esterno</li>
+    </ul>
+    <!-- inline non pratico, da evitare se non per provare. 
+    non permette di applicare a tutti i paragrafi ma solo a uno  -->
+    <p style="font-family: Verdana, Geneva, Tahoma, sans-serif; color: aqua; font-size: 25px; ">
+    1)Sono un paragrafo che sfrutta css inline
     </p>
+    
+    <hr>
+
+    <p>
+    2) Sono applicato internamente, <br>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi dolores, voluptates magni atque corporis iure quisquam, reprehenderit molestias id quibusdam veritatis fuga distinctio sint a quaerat numquam vitae, libero quo?
+    </p>
+
+    <hr>
+
+    <h4>
+    3)sono un paragrafo modificato da css esterno <br>
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae est voluptas similique explicabo aut dolorem reprehenderit dolor recusandae error! Illum perspiciatis reprehenderit obcaecati magni repudiandae, consequatur velit vero corrupti sed?
+    </h4>
+
+    <div>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero reiciendis earum quod ut id possimus. Repellat quasi nulla earum rerum, nam officiis dolores et, porro necessitatibus incidunt voluptatem inventore veritatis.</p>
+    </div>
+
+
 </body>
 </html>
